@@ -7,5 +7,3 @@ Create a simple demo that utilizes HTML/CSS in reference the concept of “Web t
 3. Margins/Padding
 4. Typography
 5. Imagery
-
-#### Ignore .gitkeep folder
