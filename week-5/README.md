@@ -8,3 +8,4 @@ Create a simple demo that utilizes HTML/CSS in reference the concept of “Web t
 4. Typography
 5. Imagery
 
+#### Ignore .gitkeep folder
