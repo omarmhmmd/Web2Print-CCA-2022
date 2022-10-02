@@ -1,0 +1,165 @@
+:root {
+    --color-primary: #d0ff00;
+    --color-secondary: #f49b90;
+    --color-tertiary: #f28b7d;
+    --color-quaternary: #f07a6a;
+    --color-quinary: #ee6352;
+  }
+  body {
+    min-height: 100vh;
+    font-family: Impact;
+    font-weight: 300;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9c6e3;
+  }
+  
+  p {
+      animation-duration: 3s;
+      animation-name: slidein;
+      background-color: aquamarine;
+  }
+  
+  @keyframes slidein {
+      from {
+          margin-left: 100%;
+          width: 300%;
+      }
+  
+      75% {
+          font-size: 200%;
+          margin-left: 25%;
+          width: 150%;
+      }
+  
+      to {
+          margin-left: 0%;
+          width: 100%;
+      }
+  }
+  
+  .content {
+    display: flex;
+    align-content:flex-start;
+    justify-content: center;
+  }
+  
+  .header-text {
+      background-color: rgba(255, 0, 242, 0.2);
+      font-family: Impact;
+      font-weight: bold;
+      color:rgb(200, 255, 127);
+      justify-content: center;
+      font-size: 30px;
+  }
+  
+  .text_shadows {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+      9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: Impact;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(2rem + 5vw);
+    text-align: center;
+    margin: 0;
+    color: var(--color-primary);
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+    letter-spacing: 0.4rem;
+  }
+  
+  .body_text{
+      font-family:'Courier New', Courier, monospace;
+      padding-left:30px;
+      font-size: 30px;
+  }
+  
+  @keyframes shadows {
+    0% {
+      text-shadow: none;
+    }
+    10% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    20% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    30% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    40% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    50% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    60% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    70% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    80% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    90% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    40% {
+      transform: translate(-12px, -12px);
+    }
+    50% {
+      transform: translate(-12px, -12px);
+    }
+    60% {
+      transform: translate(-12px, -12px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  .square{
+    width: 250px;
+    height: 40px;
+    background: greenyellow;
+    padding: 5px;
+    background-color: transparentize(white, 0.30);
+    box-shadow: 
+      -1px -1px #ff00f2, 
+      inset -1px -1px 0 0 #ff00f2;
+  }
+
+  .rect{
+    width: 90px;
+    height: 300px;
+    background:#ff00dd;
+    padding: 10px;
+    position: sticky;
+  }
+  
+  .tasks{
+    display:flex;
+  }
+body {
+  background-color: hsl(240, 100%, 80%);
+}
