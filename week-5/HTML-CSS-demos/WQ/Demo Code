@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web to print Demo</title>
+    <style>
+        .header {
+            background-image: url(https://media.istockphoto.com/photos/orange-abstract-background-picture-id1045313540?k=20&m=1045313540&s=612x612&w=0&h=ySSrYpMhOU00FsxMeqUkVyVIv6CkwU7a-E2eR36Q6vk=);
+            height: 400px;
+            background-position: center center;
+        }
+
+        
+
+        h1 {
+            color: #000000;
+            font-size: 100px;
+            line-height: 150px;
+            margin: 0;
+            position: relative;
+            text-align: center;
+            top: 20%;
+            color: rgb(244, 244, 249);
+            padding: auto;
+            margin: 0%;
+
+        }
+        .container{
+            /*background-color:rgb(0, 0, 0);*/
+            width: 100vw;
+            height: 200vh;
+        }
+
+        .welcome{
+                background-color: #000000;
+                border-bottom: 1px solid #00ee43;
+                position: fixed;
+                width: 100%;
+                z-index: 2;
+                 }
+
+        body {
+                padding: 0;
+                margin: 0;
+                background: linear-gradient(45deg, #000000 0%, #000000 100%);
+                }
+
+        h1{
+            padding: auto;
+            margin: 0%;
+            }
+        h2{
+            color:#ffffff;
+            font-size: 40px;
+            text-align: center;
+            position:relative;
+            top: 20px;
+        }
+
+        h3{
+            color:#58d619;
+            font-size: 40px;
+            text-align: center;
+            position:relative;
+            top: 20px;
+        }
+        
+        .image {background-image: url('https://cube-interactive.com/ystulisu/2022/08/WebsiteMock-Up01copy.jpg');
+            background-size: cover;
+            background-position: center;
+            position: center;
+            height: 600px;
+            width: -100px;
+        }
+
+        .image2 {background-image: url('https://negativespace.co/wp-content/uploads/2017/04/sketch-web-design-layout-wireframe-paper-negative-space-thumb-1.jpg');
+            background-size: cover;
+            background-position: center;
+            position: center;
+            height: 600px;
+            width: 1200px;
+        }
+
+        .image3 {background-image: url('    https://blog.icons8.com/wp-content/uploads/2020/02/graphic-design-movie-posters.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            width: 1200px;
+        }
+
+        .image4 {background-image: url('    https://cdn.shopify.com/s/files/1/1630/2135/files/Risolve-printwithus_9f264f74-a197-4ecd-b988-15e0ed1f94c2.jpg?v=1553370801');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            width: 1200px;
+        }
+        .review {
+                border: 1px solid rgb(0, 0, 0);
+                padding: 40px 0px;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                }
+        .review a {
+                background: rgb(0, 255, 38);
+                border: 1px solid rgb(0, 255, 38);
+                border-radius: 3px;
+                color: rgb(0, 0, 0);
+                display:inline-block;
+                margin: 10px;
+                padding: 14px;
+                text-decoration: none;
+                    }
+
+        .review a:hover {
+                background: white;
+                border: 1px solid rgb(0, 255, 38);
+                color: rgb(0, 255, 38);
+                    }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="welcome">
+        <h3><strong>Welcome</strong></h3>
+      </div>
+
+    <div class='header'>
+        <h1>Web to print</h1>
+      </div>
+
+
+
+
+
+    <div class="container">
+            <h2>The journey starting here!</h2>
+            <p>yo its Vick's website, feel free to look around</p>
+            <div class='image'>
+            </div>
+            <h2>Search the web format graphic elements</h2>
+            <div class='image2'>
+            </div>
+            <h2>Learn the graphic for inspiration!</h2>
+            <div class='image3'>
+            </div>
+            <h2>Create your own design from those elements!</h2>
+            <div class='image4'>
+            </div>
+            <h2>Print! And it is done !</h2>
+            
+            <div class="review">
+                <a href="#">search</a>
+                <a href="#">learn</a>
+                <a href="#">create</a>
+                <a href="#">print</a>
+              </div>
+       
+
+
+
+        <footer>
+            <h2>Thanks for watching</h2>
+        </footer>
+</body>
+</html>
