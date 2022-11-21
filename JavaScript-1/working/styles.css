@@ -1,0 +1,19 @@
+div {
+  width: 250px;
+  height: 250px;
+  margin-top: 24px;
+}
+
+.printView {
+  display: none;
+}
+
+.one {
+  background-color: aquamarine;
+}
+
+@media print { 
+  .printView {
+    display: block;
+  }
+ }

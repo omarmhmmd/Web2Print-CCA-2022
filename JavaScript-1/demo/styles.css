@@ -1,0 +1,101 @@
+body {
+  background-color: lightgray;
+}
+img {
+  width: 25%;
+}
+
+h4 {
+  border-radius: 4px;
+}
+
+/* Show Hide */
+.showHide h4 {
+  background-color: #00ff00;
+  color: black;
+  width: 25%;
+  text-align: center;
+}
+
+.showHide h4:hover {
+  cursor: pointer;
+}
+/* End Show Hide */
+
+/* Zoom */
+.zoom h4 {
+  background-color: darkorange;
+  color: black;
+  width: 35%;
+  text-align: center;
+}
+
+.zoom img {
+  cursor: pointer;
+}
+
+.zoomImg {
+  width: 100%;
+  display: none;
+}
+/* End Zoom */
+
+/* Clock */
+.time h4 {
+  background-color: fuchsia;
+  width: 15%;
+  text-align: center;
+}
+
+  .clock {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* End Clock */
+
+/* Drag */
+.drag h4 {
+  background-color:yellow;
+  width: 10%;
+  text-align: center;
+}
+
+.dragMe1, .dragMe2 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+/* End Drag */
+
+/* Positioning */
+.position h4 {
+  background-color: rosybrown;
+  width: 17%;
+  text-align: center;
+}
+
+.position div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square1 {
+  background-color: orange;
+}
+
+.square2 {
+  background-color: red;
+}
+
+
+/* End Positioning */
+
+

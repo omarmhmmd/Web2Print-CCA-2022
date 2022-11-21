@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript-1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="showHide">
+      <h4 onclick="showHide()">Click to Show and Hide</h4>
+      <p>The image is <span>showing</span></p>
+      <img src="images/pills.jpg" alt="" />
+    </div>
+    <hr />
+    <div class="zoom">
+      <h4 onclick="zoom()">Click the image to zoom</h4>
+      <img onclick="zoom()" src="images/pills.jpg" alt="" />
+      <img class="zoomImg" src="images/pills.jpg" alt="" />
+    </div>
+    <hr />
+    <div class="time">
+      <h4>Clock</h4>
+      <p class="clock"></p>
+    </div>
+    <hr />
+    <div class="drag">
+      <h4>Drag</h4>
+      <div class="dragMe1">
+        Drag Me 1
+      </div>
+      <div class="dragMe2">
+        Drag Me 2
+      </div>
+    </div>
+    <hr />
+    <div class="position">
+      <h4>Position</h4>
+      <div class="square1">
+        1
+      </div>
+      Position Top
+      <p class="pstn1">
+
+      </p>
+      <br>
+      <div class="square2">
+        2
+      </div>
+      Position Top
+      <p class="pstn2">
+
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
